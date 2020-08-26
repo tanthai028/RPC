@@ -21,7 +21,7 @@ def main():
   global loses
   wins, loses, = 0, 0
 
-  while (wins + loses) != 3:
+  while (wins + loses) != 3 or wins != 2 or loses != 2:
 
     yourChoice = ''
 
